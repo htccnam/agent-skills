@@ -12,6 +12,7 @@ Dưới đây là danh sách các tài liệu hướng dẫn chi tiết từ A �
 | :---: | :--- | :--- | :---: |
 | **01** | **GitHub Spec Kit** | Phương pháp luận **Spec-Driven Development (SDD)**, Hiến pháp dự án (`constitution.md`), đặc tả (`spec.md`), kiến trúc (`plan.md`), và phân rã tác vụ nguyên tử (`tasks.md`). | [Xem tài liệu 01](docs/01%20spec-kit.md) |
 | **02** | **React UI Master** | Kiến trúc giao diện người dùng hiện đại: **Design Tokens**, **CVA (Class Variance Authority)**, **Compound Components**, **Polymorphic Slots (`asChild`)**, chuẩn tiếp cận **WCAG 2.1 AA**, và **Render Hygiene**. | [Xem tài liệu 02](docs/02%20react-ui-master.md) |
+| **03** | **Claude Agent Master** | Phương pháp luận & Công cụ tác chiến AI Agent đỉnh cao: **Claude Code (CLI)**, **Plan Mode**, **Khung giao việc 4 yếu tố (G-I-C-D)**, **Model Orchestration ("Dùng tướng & Dùng quân")**, **Sub-agents song song**, **Context Hygiene (`/compact`, `/btw`)**, và **Vòng lặp tự trị `/goal`**. | [Xem tài liệu 03](docs/03%20claude-agent-master.md) |
 
 ---
 
@@ -21,7 +22,8 @@ Dưới đây là danh sách các tài liệu hướng dẫn chi tiết từ A �
 agent-skills/
 ├── 📁 docs/                   # Thư viện tài liệu hướng dẫn và lộ trình làm chủ từng Skill
 │   ├── 📄 01 spec-kit.md      # Quy trình SDD và công cụ specify-cli
-│   └── 📄 02 react-ui-master.md # Chuẩn mực thiết kế và lập trình React Component cấp Enterprise
+│   ├── 📄 02 react-ui-master.md # Chuẩn mực thiết kế và lập trình React Component cấp Enterprise
+│   └── 📄 03 claude-agent-master.md # Cẩm nang tác chiến toàn diện với Claude Code và AI Agent
 └── 📄 README.md               # Mục lục tổng quan và lộ trình đào tạo
 ```
 
